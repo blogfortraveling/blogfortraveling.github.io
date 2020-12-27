@@ -1,0 +1,470 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    
+     height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+.header {
+   
+    padding-top: 44px; 
+    background: url(/img/bg.png) center center no-repeat;
+}
+
+.menu {
+   display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+   
+}
+.menu a{
+    margin-right: 100px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+    
+}
+.menu a:last-child {
+    margin-right: 0;
+}
+.header-text {
+    text-align: center;
+
+    margin-top: 350px; 
+
+}
+
+.header-text h1 {
+    width: 796px;
+    height: 81px;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+    margin-left: 550px; 
+   
+  
+}
+.header-text p {
+
+
+color: #ffffff;
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 4.2px;
+margin-top: 30px;
+
+}
+.header-text button {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:transparent;
+    border:2px solid white;
+    margin-top: 15px;
+    transition: ease-in .25s all;
+
+}
+.header-text button:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: black;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.about-text span {
+    color: #c4c4c4;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3.08px;
+}
+.about-text h2 {
+color: #000000;
+font-size: 30px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 4.2px;
+
+}
+.about-text p {
+color: #5b5b5c;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 3.08px;
+margin-top: 20px;
+
+}
+.about img {
+    width: 690px;
+    height: 969px;  
+}
+.about-text button {
+    
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    border:2px solid black ;
+    background-color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right:40px ;
+    cursor: pointer;
+
+}
+.about-text button:hover {
+    color: white;
+    background-color: black;
+    
+}
+
+.text-for-photo {
+    text-align: center;
+}
+.photo {
+    display: center;
+    flex-wrap: wrap;
+}
+.text-for-photo h2 {
+    margin-top: 100px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7.2px;
+
+}
+
+.text-for-photo p {
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+    margin-bottom: 50px;
+
+}
+
+.photo {
+    margin-left: 60px;
+    height: 170vh;
+    
+}
+.photo img {
+    margin: 10px;
+}
+.travel {
+    display: flex;
+    justify-content: space-around;
+}
+.travel-text {
+    height: 20vh;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.main-block-travel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    
+}
+.block-first {
+    margin-right: 17px;
+}
+.block-second {
+    margin-left: 17px;
+}
+.travel-text h2 {
+    width: 669px;
+    height: 23px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7.2px;
+    margin-left: 230px;
+
+}
+.travel-text p {
+
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.main-block-travel h3 {
+color: #000000;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 6px;
+height: 16px;
+padding:25px 0px ;
+
+}
+.main-block-travel p {
+    /* Style for "Lorem ipsu" */
+width: 675px;
+height: 100px;
+color: #848484;
+font-size: 19px;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 3.8px;
+
+}
+.main-block-travel button {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;;
+    letter-spacing: 3.2px;
+    cursor: pointer;
+    width: 221px;
+    height: 50px;
+    background-color: #dddcdc;
+    margin-top: 30px;
+    border: none;
+
+}
+.main-block-travel button:hover {
+    color: white;
+    background-color: black;
+}
+
+.tour {
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.tour span {
+    /* Style for "Next Tour" */
+width: 131px;
+height: 16px;
+color: #c4c4c4;
+font-size: 22px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "Next Tour" */
+font-style: normal;
+letter-spacing: 3.08px;
+line-height: normal;
+}
+.tour h2 {
+    /* Style for "UNFORGETTA" */
+width: 565px;
+height: 62px;
+color: #000000;
+font-size: 30px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 41px;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "UNFORGETTA" */
+font-style: normal;
+letter-spacing: 4.2px;
+line-height: normal;
+padding: 10px 0px;
+padding-bottom:30px ;
+}
+.tour p {
+    /* Style for "Lorem ipsu" */
+width: 806px;
+height: 126px;
+color: #5b5b5c;
+font-size: 22px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "Lorem ipsu" */
+font-style: normal;
+letter-spacing: 3.08px;
+line-height: normal;
+padding: 5px 0px;
+} 
+
+.tour .text {
+    margin-top: 270px;
+}
+
+.send {
+    margin-top: 325px;
+    
+    background-color: #f4f4f4;
+    padding: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-mail h2 {
+
+    /* Style for "BOOK A DIS" */
+    width: 521px;
+    height: 21px;
+    color: #000000;
+    
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 41px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 4.2px;
+    line-height: normal;
+    margin-right: 220px;
+}
+
+.send-mail p {
+    /* Style for "Mauris ult" */
+    width: 406px;
+    height: 18px;
+    color: #5b5b5c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    /* Text style for "Mauris ult" */
+    font-style: normal;
+    letter-spacing: 2.52px;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.function input {
+    margin-right: 50px;
+    background:transparent;
+    border: 2px solid #7a7a7a;
+    width: 74px;
+    height: 16px;
+    color: #3a4047;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    /* Text style for "Name" */
+    font-style: normal;
+    letter-spacing: 3.08px;
+    line-height: normal;
+    padding-left:30px ;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
+
+
+form button {
+    
+    width: 73px;
+    height: 16px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "SEND" */
+    font-style: normal;
+    letter-spacing: 3.08px;
+    line-height: normal;
+    border: #5b5e61;
+    /* Style for "Retângulo" */
+    width: 200px;
+    height: 48px;
+    background-color: #5b5e61;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+.footer {
+    text-align: center;
+    padding: 90px;
+}
+
+.last-a a {
+    padding: 20px;
+    width: 79px;
+    height: 16px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+
+    font-style: normal;
+    letter-spacing: 3.08px;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+.last-info p {
+    /* Style for "Business t" */
+    margin-top: 30px;
+    margin-left: 620px;
+    text-align: center;
+    
+    color: #000000;
+
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    padding:5px ;
+    font-style: normal;
+    letter-spacing: 5.12px;
+    line-height: normal;
+}
+
+.last-info p:first-child {
+    margin-left: 730px;
+   
+    
+}
+
